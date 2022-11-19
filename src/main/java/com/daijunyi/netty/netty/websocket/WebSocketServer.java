@@ -45,6 +45,7 @@ public class WebSocketServer {
                             //2.可以看到NebSocketFrame下面有六个子类
                             //3.浏览器请求时ws://儿ocalhost:7000/hello表示请求uri
                             //4.WebSocketserverProtocoLHandler核心功能是将http协议升级为ws协议，保持长连接
+                            //5 是通过一个状态码101来升级协议
                             pipeline.addLast(new WebSocketServerProtocolHandler("/hello"));
                             //自定义处理器，处理业务
                             pipeline.addLast(new WebSocketTextFrameHandler());
