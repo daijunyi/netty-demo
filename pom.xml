@@ -40,17 +40,18 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>1.7.36</version>
+      <version>1.7.25</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-log4j12</artifactId>
-      <version>1.7.36</version>
+      <version>1.7.25</version>
     </dependency>
+
     <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-simple</artifactId>
-      <version>1.7.36</version>
+      <groupId>io.netty</groupId>
+      <artifactId>netty-example</artifactId>
+      <version>4.1.84.Final</version>
     </dependency>
   </dependencies>
 
